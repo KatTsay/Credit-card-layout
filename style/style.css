@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    background-color: rgba(91, 235, 223, 0.911);
+    border-radius: 15px;
+    padding-top: 20px;
+    margin: auto;
+    background-image: url(../pic/moon_flag.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 145% 50px;
+}
+
+.name {
+    color: white;
+    background-color: orangered;
+    width: 350px;
+    height: 35px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 50px;
+    font-weight: bold;
+}
+
+.infolab {
+    display: block;
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
+
+.info {
+    background-color: rgba(91, 235, 223, 0.911);
+    display: block;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    width: 260px;
+    height: 30px;
+    border: 0;
+    border-bottom: 2px solid grey;
+}
+
+.data input {
+    background-color: rgba(91, 235, 223, 0.911);
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    margin-right: 20px;
+    border: 0;
+    border-bottom: 2px solid grey;
+}
+
+.boxdata {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.boxcv {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.vid {
+    font-size: 14px;
+}
